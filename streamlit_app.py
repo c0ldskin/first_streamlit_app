@@ -22,7 +22,7 @@ streamlit.dataframe (my_fruit_list)
 # adding new code here
 
 import pandas
-my_fruit_list = pandas.read_csv("https://uni-lab-files.s3.us-west-2.amazonaws.com/dabw/fruit macros.txt")
+my_fruit_list = pandas.read_csv("https://uni-lab-files.s3.us-west-2.amazonaws.com/dabw/fruit_macros.txt")
 my fruit list = my fruit list.set index('Fruit')
 
 # Let's put a pick list here so they can pick the fruit they want to include
